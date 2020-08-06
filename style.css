@@ -1,0 +1,64 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    color: gray;
+    background-color:rgb(96, 94, 206);
+    font-family: 'Roboto', sans-serif;
+
+}
+nav{
+    background-color: rgb(96, 94, 206);
+    color: white;
+}
+.menucontainer{
+    margin:0;
+    margin-left: 300px;
+    position: fixed;
+    background: rgb(96, 94, 206);
+    z-index: 1;
+    
+}
+
+.menu{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+.menu a{
+    color: white;
+    float:left;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+   /* border: 1px solid white;*/
+    padding: 10px 100px;
+}
+.menu a:hover{
+    background-color: rgb(118, 116, 211);
+}
+
+#landing , #about, #contact{
+    width: 100%;
+    top: 50%;
+    height: 100vh;
+    border-bottom: 3px solid rgb(156, 156, 156);
+    padding:0;
+    margin-top: 6%;
+    text-align: center;
+    display:block;
+}
+#landing div , #about div, #contact div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+#landing{
+    background-color: rgb(216, 125, 5);
+    width: 100%
+}
