@@ -12,6 +12,10 @@ body{
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 
+    @media screen {
+        
+    }
+
 }
 nav{
     margin:0px;
