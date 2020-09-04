@@ -1,6 +1,10 @@
 html{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
 
 body{
     margin:0 auto;
@@ -10,19 +14,24 @@ body{
     color: rgb(57, 110, 59);
     background-color:rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
-    scroll-behavior: smooth;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
 
-    @media screen {
-        
-    }
+   
 
 }
 nav{
     margin:0px;
-    background-color: rgb(127, 104, 255);
+    background-color: rgb(47, 156, 170);
     color: rgb(202, 209, 96);
     width: 100%;
     position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -41,6 +50,9 @@ nav{
     margin-left:0px;
 font-family: 'Kaushan Script', cursive;
  font-size: 25px;
+ letter-spacing: 2px;
+
+
 }
 
 .menu, .logo{
@@ -53,14 +65,19 @@ font-family: 'Kaushan Script', cursive;
     font-family: 'Oswald', sans-serif;
 }
 .menu a{
+    width: 45%;
+    justify-content: space-around;
     color: rgb(255, 255, 255);
-    font-size: 20px;
-    float:left;
-    display:block;
     text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    display:flex;
+    float:left;
     text-decoration: none;
-    /*border: 1px solid white;*/
-    padding: 10px 50px;
+    padding: 5px 50px;
+    letter-spacing: 2px;
+    
+
     
  
 }
@@ -78,6 +95,8 @@ font-family: 'Kaushan Script', cursive;
     padding:0;
     text-align: center;
     display:block;
+    overflow-y: scroll;
+    
 }
 #landing div , #about div, #contact div{
     position: relative;
