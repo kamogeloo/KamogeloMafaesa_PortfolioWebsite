@@ -23,6 +23,32 @@ body{
    
 
 }
+/*screens 600px or less*/
+@media screen and (max-width: 600px){
+    .menucontainer a{
+        float: none;
+        width: 100%;
+    }
+}
+
+/*Laptops*/
+/* Non-retina Screens*/
+@media screen and(min-device-width: 1200px)
+and (max-device-width:1600px)
+and(-webkit-min-device-pixel-ratio: 1){
+
+}
+
+/*Retina Screens*/
+@media screen and (min-device-width:1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution:192dpi){
+
+}
+/*Phones*/
+
+
 nav{
     margin:0px;
     background-color: rgb(47, 156, 170);
@@ -72,7 +98,7 @@ font-family: 'Kaushan Script', cursive;
     text-align: center;
     font-size: 15px;
     font-weight: bold;
-    display:flex;
+    display:block;
     float:left;
     text-decoration: none;
     padding: 5px 40px;
@@ -87,26 +113,46 @@ font-family: 'Kaushan Script', cursive;
     color:rgb(203, 206, 62);
 }
 .menuicon{
-    display: none;
+    display: flex;
+    position: absolute;
+    top: .75rem;
+    right: 1.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height:20px;
 }
 
-.menuicon div{
-    width: 25px;
+.menuicon span{
+    width: 100%;
     height: 3px;
-    background-color: rgb(202, 209, 96);
+    background-color: rgb(255, 255, 255);
     margin: 5px;
+    border-radius: 10px;
 }
 
-@media screen and (max-width: 1024px){
-   .menucontainer{
-       width: 60%;
+@media (max-width: 800px){
+   .menuicon{
+       display: flex;
+    
    }
-}
-@media screen and (max-width: 800px){
-    body{
-        display: none;
-    }
-}
+   .menucontainer{
+    background-color: rgb(255, 255, 83);
+   }
+   .myPic{
+       margin-top:0;
+       width: 2500px;
+    
+
+   }
+   }
+   nav{
+       flex-direction: column;
+       align-items: flex-start;
+   }
+   .menucontainer ul{
+       flex-direction: column;
+   }
 
 #landing , #about, #contact{
     margin-top:0;
@@ -132,6 +178,8 @@ font-family: 'Kaushan Script', cursive;
     display: flex;
     
 }
+
+
 #about div{
     width: 100%;
     height: 100%;
@@ -152,15 +200,10 @@ font-family: 'Kaushan Script', cursive;
     margin-top: 200px;
 }
 
-#landing img{
-    justify-content: center;
+.myPic{
     width: 50%;
-    max-width: 900px;
-    height: 700px;
-    margin-left: 700px;
-    margin-top: 0;
-    /*margin-bottom:;*/
-    display: block;
+    height: auto;
+    display: inline-block;
 
 }
 
@@ -191,7 +234,7 @@ ol li{
 }
 .work img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 .column{
     grid-column: span 2;
@@ -213,5 +256,9 @@ ol li{
     padding: 5px;
 }
 .footer{
-    
+    background-color: rgb(47, 156, 170);
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
