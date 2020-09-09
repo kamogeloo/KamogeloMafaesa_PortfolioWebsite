@@ -6,6 +6,7 @@ html{
 }
 
 
+
 body{
     margin:0;
     padding:0;
@@ -169,7 +170,9 @@ font-family: 'Kaushan Script', cursive;
     padding:0;
     text-align: center;
     display:block;
-    overflow-y: scroll;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
     
 }
 #landing div , #about div, #contact div{
@@ -189,6 +192,7 @@ font-family: 'Kaushan Script', cursive;
 #about div{
     width: 100%;
     height: 100%;
+    
 }
 #contact div{
     width: 100%;
@@ -236,6 +240,8 @@ ol li{
     margin:0;
     display: inline-block;
     text-align: center;
+    background-color: rgb(47, 156, 170);
+    color: white;
 
 }
 .work img{
@@ -267,7 +273,6 @@ ol li{
     left: 0;
     text-align: center;
     background-color: rgb(47, 156, 170);
-    margin:0;
     width: 100%;
     color: white;
     
