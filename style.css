@@ -136,8 +136,9 @@ font-family: 'Kaushan Script', cursive;
        display: flex;
     
    }
+ 
    .menucontainer{
-    background-color: rgb(255, 255, 83);
+    background-color: rgb(47, 156, 170);
    }
    .myPic{
        margin-top:0;
@@ -145,14 +146,19 @@ font-family: 'Kaushan Script', cursive;
     
 
    }
-   }
-   nav{
+   .logo{
        flex-direction: column;
        align-items: flex-start;
+       width: 70%;
+       position: absolute;
+
+
    }
    .menucontainer ul{
        flex-direction: column;
+       align-items: flex-start;
    }
+}
 
 #landing , #about, #contact{
     margin-top:0;
@@ -256,7 +262,15 @@ ol li{
     padding: 5px;
 }
 .footer{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    text-align: center;
     background-color: rgb(47, 156, 170);
+    margin:0;
+    width: 100%;
+    color: white;
+    
 }
 img{
     max-width: 100%;
