@@ -7,65 +7,98 @@
     <meta name="description" content="Projects done">
     <meta name = "url" content = "">
     <link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" href = "footer.css" type = "text/css">
     <link rel ="picture_folder" href ="work/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
     <script src="index.js" defer></script>
-    <title>Home</title>
+    <title>work</title>
 </head>
 
 <body class = "worksection">
     <header>
-        <nav >
+        <nav class = "navi" id = "menulist" >
+            <div class = "logo"> Kamo M</div>
             
-            <ul class = "menucontainer">
-                <li class ="logo"><h2 > Kamo M   </h2></li>
-                <li class = "menu"> <a href= index.html> HOME </a></li>
-                <li class = "menu"> <a href= about.html> ABOUT </a></li>
-                <li class = "menu"> <a href= work.html> WORK </a></li>
+            <div class = "menucontainer" id = "navibar">
+                
+            <ul>
+                <li class = "menu" id= "active"> <a href= index.html> HOME </a></li>
+                <li class = "menu"> <a href= about.html> ABOUT ME</a></li>
+                <li class = "menu"><button id= "menubtn" onclick = "work()">WORK</button></li>
                 <li class = "menu"> <a href= contact.html> CONTACT </a></li>
-                <li class = "menu"><a href= resume.html>RESUME/CV</a></li>
+                <li class = "menu"><button id= "menubtn" onclick = "resume()">RESUME</button></li>
+                <li class = "menu"><a href = "javascript:void(0);" class = "icon" onclick = "Responsivemenu()"> 
+                <i class= "fa fa-bars"></i></a></li>
+            
+            
             </ul>
+            </div>
+            
         </nav>
+
         <div>
 
-         <h1 class = "workpageheading"> THESE ARE THE PROJECTS THAT I HAVE DONE </h1>
+         <h1 class = "workpageheading" style= "text-align: center;margin-bottom: 80px;"> PROJECTS </h1>
 
         </div>
 
     </header>
 
-    <main class = "work">
-        <div class = "row">
-        <div class="column"><figure><img src="work/Own_illustration.png" alt = "self-portrait illustration"></figure></div>
-       <div class = "column"><figure><img src="work/ndebele warrior.png" alt = " illustration of a girl wearing ndebele colours"></figure></div>
+    <main>
+        <div class = "row-work">
+        <div class="column-work" style = "margin-bottom: 100px; "><figure><img src="work/Own_illustration.png" alt = "self-portrait illustration" width="500px"></figure></div>
+       <div class = "column-work" style = "margin-bottom: 150px; "><figure><img src="work/ndebele warrior.png" alt = " illustration of a girl wearing ndebele colours" width="500px"></figure></div>
     
       
-        <div class = "column"><figure><img src="work/vanessa.png" alt = "Illustration of vanessa"></figure></div>
-        <div class = "column"><figure><img src="work/Zowlily1 the girl.png" alt = "illustration of zwelethu"></figure></div>
+        <div class = "column-work" style = "margin-bottom: 150px; "><figure><img src="work/vanessa.png" alt = "Illustration of vanessa" width="500px"></figure></div>
+        <div class = "column-work" style = "margin-bottom: 250px; "><figure><img src="work/Zowlily1 the girl.png" alt = "illustration of zwelethu" width="500px" height="auto" ></figure></div>
     
          
-        <div class = "column"><figure><img src="work/Tede.png" alt  =  " illustration of a couple"></figure></div>
-        <div class = "column"><figure><img src="work/mood.png" alt = " illustration of a couple sitting on a cloud"></figure></div>
+        <div class = "column-work" style = "margin-top: -250px; "><figure><img src="work/Tede.png" alt  =  " illustration of a couple" width="500px"></figure></div>
+        <div class = "column-work" style = "margin-top: -100px; margin-bottom: 100px;"><figure><img src="work/mood.png" alt = " illustration of a couple sitting on a cloud" width="500px"></figure></div>
    
          
-        <div class = "column"><figure><img src="work/tisha.png" alt = " illustration of woman touching face"></figure></div>
-        <div class = "column"><figure><img src="work/pixel chill.png" alt = " pixalated illustration of couple sitting on clouds"></figure></div>
+        <div class = "column-work" style = "margin-top: -100px; margin-bottom: 100px;"><figure><img src="work/tisha.png" alt = " illustration of woman touching face" width="500px"></figure></div>
+        <div class = "column-work" style = "margin-bottom: 150px; "><figure><img src="work/pixel chill.png"  alt = " pixalated illustration of couple sitting on clouds"width="500px"></figure></div>
     
     
-        <div class = "column"><figure><img src="work/QL_BrandLogo.png" alt = "a logo design"></figure></div>
-        <div class = "column"><figure><img src="work/reflex.jpg" alt = " an illustration of a woman standing next to bicycle"></figure></div>
+        <div class = "column-work" style = "margin-top: -50px; margin-bottom: 200px;"><figure><img src="work/QL_BrandLogo.png" alt = "a logo design" width="500px"></figure></div>
+        <div class = "column-work" style = "margin-top:-550px; margin-bottom:100px"><figure><img src="work/reflex.jpg" alt = " an illustration of a woman standing next to bicycle" width="500px"></figure></div>
         
-        <div class = "column"><figure><img src="work/idea4.png" alt = "a logo design"></figure></div>
-        <div class = "column"><figure><img src="work/anotheridea1.png" alt = " an illustration of mirror image of a woman standing"></figure></div>
+        <div class = "column-work" style = "margin-bottom:100px ; "><figure><img src="work/idea4.png" alt = "a logo design" width="500px"></figure></div>
+        <div class = "column-work" style = "margin-bottom:100px; "><figure><img src="work/anotheridea1.png" alt = " an illustration of mirror image of a woman standing" width="500px"></figure></div>
+    </div>
+
+    <div class = BacktoTop>
+
+        <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top"><i class ="arrow up"></i></button>
     </div>
 
     </main>
 
     <footer>
+        <div class = "footer"> 
+            <a href="https://www.facebook.com/kamo.jasmine" class="fa fa-facebook"></a>
+            
+            <a href="https://www.instagram.com/kamo_mafaesa/?hl=en" class="fa fa-instagram"></a>
+            
+       
+           </div>
 
     </footer>
+    <script>
+        function work(){
+            document.location.href = "work.html";
+        }
+        function resume(){
+            document.location.href = "resume.html";
+        }
+    </script>   
 
 </body>
 

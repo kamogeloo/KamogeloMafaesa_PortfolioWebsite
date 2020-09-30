@@ -7,9 +7,13 @@
     <meta name="description" content="Personal portfolio website">
     <meta name = "url" content = "">
     <link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" href = "footer.css" type = "text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
     <script src="index.js" defer></script>
     <title>Home</title>
 </head>
@@ -17,16 +21,24 @@
 <body>
 
     <header>
-        <nav >
+        <nav class = "navi" id = "menulist" >
+            <div class = "logo"> Kamo M</div>
             
-            <ul class = "menucontainer">
-                <li class ="logo"><h2 > Kamo M   </h2></li>
-                <li class = "menu"> <a href= index.html> HOME </a></li>
-                <li class = "menu"> <a href= about.html> ABOUT </a></li>
-                <li class = "menu"> <a href= work.html> WORK </a></li>
+            <div class = "menucontainer" id = "navibar">
+                
+            <ul>
+                <li class = "menu" id= "active"> <a href= index.html> HOME </a></li>
+                <li class = "menu"> <a href= about.html> ABOUT ME</a></li>
+                <li class = "menu"><button id= "menubtn" onclick = "work()">WORK</button></li>
                 <li class = "menu"> <a href= contact.html> CONTACT </a></li>
-                <li class = "menu"><a href= resume.html>RESUME/CV</a></li>
+                <li class = "menu"><button id= "menubtn" onclick = "resume()">RESUME</button></li>
+                <li class = "menu"><a href = "javascript:void(0);" class = "icon" onclick = "Responsivemenu()"> 
+                <i class= "fa fa-bars"></i></a></li>
+            
+            
             </ul>
+            </div>
+            
         </nav>
 
     </header>
@@ -50,7 +62,7 @@
  <p>I have created illustrations for e-book covers, album art and made cartoon illustrations for people over the years. Most of which were done for free.</p>
 
 
-<ol><strong>EDUCATION</strong>
+<ol class = "resume"><strong>EDUCATION</strong>
 <li><strong>JAN 2004 – DEC 2004 </strong>
     <br>
 GRADE 1, LESEGO PRIMARY SCHOOL</li>
@@ -81,7 +93,7 @@ GRADE 8 – GRADE 12, MATLOSANE SENIOR SECONDARY SCHOOL</li>
 BA DIGITAL ARTS, UNIVERSITY OF THE WITWATERSRAND</li>
 </ol>
 
-<ul><strong>SKILLS</strong>
+<ul class="cv"><strong>SKILLS</strong>
     <li>Good communication skills</li>
 	<li>Critical thinking skills</li>
 	<li>Collaboration & teamwork</li>
@@ -108,10 +120,28 @@ Julia Thulo – Grandmother/sponsor</p>
 
 
 
+<div class = BacktoTop>
 
+    <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top"><i class ="arrow up"></i></button>
+</div>
     </main>
     <footer>
+        <div class = "footer"> 
+            <a href="https://www.facebook.com/kamo.jasmine" class="fa fa-facebook"></a>
+            
+            <a href="https://www.instagram.com/kamo_mafaesa/?hl=en" class="fa fa-instagram"></a>
+            
+       
+           </div>
 
     </footer>
+    <script>
+        function work(){
+            document.location.href = "work.html";
+        }
+        function resume(){
+            document.location.href = "resume.html";
+        }
+    </script>   
     </body>
     </html>

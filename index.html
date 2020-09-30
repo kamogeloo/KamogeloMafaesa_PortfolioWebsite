@@ -6,10 +6,14 @@
     <meta name="author" content="Kamogelo Mafaesa">
     <meta name="description" content="Personal portfolio website">
     <meta name = "url" content = "">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type = "text/css">
+    <link rel = "stylesheet" href = "footer.css" type = "text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
     <script src="index.js" defer></script>
     <title>Home</title>
 </head>
@@ -17,54 +21,59 @@
 <body>
 
     <header>
-        <nav >
+        <nav class = "navi" id = "menulist" >
             <div class = "logo"> Kamo M</div>
             
-            <div class = "menucontainer">
+            <div class = "menucontainer" id = "navibar">
+                
             <ul>
-                <li class = "menu"> <a href= #landing> HOME </a></li>
-                <li class = "menu"> <a href= #about> ABOUT ME</a></li>
-                <li class = "menu"> <a href= work.html> WORK</a></li>
+                <li class = "menu" id= "active"> <a href= #landing> HOME </a></li>
+                <li class = "menu"> <a href= #about> ME</a></li>
+                <li class = "menu"><button id= "menubtn" onclick = "work()">WORK</button></li>
                 <li class = "menu"> <a href= #contact> CONTACT </a></li>
-                <li class = "menu"> <a href= resume.html> RESUME </a></li>
-            </div>
-              
+                <li class = "menu"><button id= "menubtn" onclick = "resume()">RESUME</button></li>
+                <li class = "menu"><a href = "javascript:void(0);" class = "icon" onclick = "Responsivemenu()"> 
+                <i class= "fa fa-bars"></i></a></li>
+            
+            
             </ul>
-            <div class="menuicon">
-                <span class="line1"></span>
-                <span class="line2"></span>
-                <span class="line3"></span>
             </div>
-           
+            
         </nav>
 
     </header>
 
     <main>
-        <div id = "landing">
+        <div id = "landing" class = "row-landing">
+            <div class = "column-landing left" >
+              
             <a href= index.html></a>
-            <section class = "text"> 
-                
+            
+            <section id = "text">
                 <h2 id = "profession"><strong>DIGITAL ARTIST</strong></h2> 
                 <br>
                 <p>Hello! Welcome to my website </p>
                 <p>My name is Kamogelo, but everyone calls me Kamo.</p> 
+                
             </section>   
-    
-            <figure><img class = "myPic" src = "Picpic.png" alt = "A self-portrait illustration"></figure>
-                <figcaption> </figcaption>
+        </div>
+        <div class = "column-landing right" style = "margin-top: -760px;margin-left: 500px;">
         
+             
+            <figure><img class = "myPic" src = "Picpic.png" alt = "A self-portrait illustration" width="800px" height="700px"></figure>
+            <figcaption> </figcaption>
+             
+            
+            </div>
                
         </div>
+
         <div id = "about" class = "middletext">
-            <a href= about.html></a>
-            <figure><img src = "IMG_20200326_155552.png"  alt = "a selfie image of myself" width= "50%"></figure>
+            
+           <!-- <a href= me.html></a>-->
+            <a href = about.html><figure><img src = "IMG_20200326_155552.png"  alt = "a selfie image of myself" width= "50%"></figure></a>
             <section >
-               <h2> ABOUT ME </h2>
-               <p> My name is Kamogelo Mafaesa. A digital  arts student from the University of the Witwaterand,</p>
-               <p>; currently based in Johannesburg, Gauteng. I am an artist( I think),I draw traditionally, digitally and I have also tried painting on clothes; </p>
-               <p >I make 3D models on blender sometimes,I have made some games, and now I create websites too.</p>
-            </section>
+               <p>NOW THAT YOU KNOW WHAT I LOOK LIKE, KINDLY CLICK THE PICTURE TO GET TO KNOW MORE ABOUT ME AND WHAT I DO </p>
             
         
         </div>
@@ -78,14 +87,42 @@
             
             </section>
         </div>
+          <div class = BacktoTop>
 
-        <div class = "footer">
-
-
+            <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top"><i class ="arrow up"></i></button>
         </div>
+
+       
+</main>
+
+
+     <footer>
+        <div class = "footer"> 
+            <a href="https://www.facebook.com/kamo.jasmine" class="fa fa-facebook"></a>
+            
+            <a href="https://www.instagram.com/kamo_mafaesa/?hl=en" class="fa fa-instagram"></a>
+            
+       
+           </div>
+
+     </footer>
+
+     <script>
+         function work(){
+             document.location.href = "work.html";
+         }
+         function resume(){
+             document.location.href = "resume.html";
+         }
+         function BacktoTop() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0;
+    
+    }
+     </script>   
         
          
-    </main>
+    
 
     
     
