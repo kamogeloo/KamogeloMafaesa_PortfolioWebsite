@@ -15,7 +15,8 @@ body{
     padding-bottom: 100px;
     height:100%;
     color: rgb(255, 255, 255);
-    background-color: rgb(102, 170, 202);
+   /* background-color: rgb(102, 170, 202);*/
+   background-color: rgb(248, 0, 0);
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     flex-direction: column;
@@ -98,7 +99,7 @@ body{
         color: rgb(0, 0, 0);
     }
     .menu a:hover, #menubtn:hover{
-        background-color: rgb(209, 164, 164);
+        background-color: rgb(255, 208, 0);
         color:rgb(0, 0, 0);
     }
     .menucontainer a.active{
@@ -108,7 +109,31 @@ body{
     .menucontainer .icon{
         display: none;
     }
-   
+    .dropdown{
+        position: relaive;
+        display:inline-block;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: red;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    
+    }
+    .dropdown-content a {
+        color: black;
+        padding-top: 2px;
+        padding-left: 2px;
+        padding-right: -10px;
+        padding-bottom: 0px;
+        text-decoration: none;
+        display: block;
+    }
+   .dropdown:hover .dropdown-content{
+       display: block;
+   }
 
 
 /*screens 600px or less*/
@@ -287,6 +312,7 @@ and (min-resolution:192dpi){
     margin-top:0;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
     width: 100%;
     top: 0px;
     height: 100vh;
@@ -434,7 +460,7 @@ h2, h1{
     font-family: 'Playfair Display', serif;
 }
 .row-landing{
-  display: flex;
+display: flex;
 column-span: 2;
 column-gap: 0;
 
@@ -456,11 +482,13 @@ column-gap: 0;
 .left{
     margin: 0;
     width: 35%;
+    height: 100%;
     background-color:#F78888;
 }
 .right{
     
     width: 75%;
+    height: 100%;
     background-color: rgb(102, 170, 202);
 }
 
