@@ -15,6 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <script src="index.js" defer></script>
     <title>work</title>
 </head>
@@ -40,23 +42,30 @@
             
         </nav>
 
-        <div>
-
-         <h1 class = "workpageheading" style= "text-align: center;margin-bottom: 80px;"> PROJECTS </h1>
-
-        </div>
+      
 
     </header>
 
     <main class = "">
+        <div>
+
+            <h1 class = "workpageheading" style= "text-align: center;margin-bottom: 20px;"> PROJECTS </h1>
+   
+           </div>
         <div class = buttons>
  <div >
-     <button class  ="portfolio" id= "firstButn" onclick = "illustrations()">Illustrations</button>
+     <button class  ="portfolio animated slideInLeft slow" id= "firstButn" onclick = "illustrations()"> ILLUSTRATIONS</button>
  <div >
-    <button class  ="portfolio"  id = "secondButn" onclick = "animations()">Animations</button>
+    <button class  ="portfolio animated slideInRight slow delay-2s"  id = "secondButn" onclick = "animations()">ANIMATIONS</button>
  </div>
  <div >
-    <button  class  ="portfolio"  id = "thirdButn" onclick = "models()">Models</button>
+    <button  class  ="portfolio animated slideInLeft slow delay-3s"  id = "thirdButn" onclick = "models()"> MODELS</button>
+ </div>
+ <div >
+    <button  class  ="portfolio animated slideInRight slow delay-4s"  id = "fourthButn" onclick = "Wireframe()"> WIREFRAMES AND STYLE GUIDE</button>
+ </div>
+ 
+
  </div>
 
     <div class = BacktoTop>
@@ -89,6 +98,9 @@
         }
         function models(){
             document.location.href = "3DModels.html"
+        }
+        function Wireframe(){
+            document.location.href = "Wireframe.html"
         }
     </script>   
 
