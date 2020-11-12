@@ -879,11 +879,38 @@ and (min-resolution:192dpi){
     }
     0%{
         fill: none;}
-    30%{ fill: white;}
-    
+    30%{ fill: white;
+     stroke: gold;}
+    60%{fill:#5da2d5;
+   stroke: rgb(255, 208, 0);}
+
+    70%{fill: rgb(255, 208, 0);
+    stroke:#5da2d5;}
+
     }
 .box2 img{
+    width: 100%;
     margin: 0;
+    justify-content: center;
+    display: flex;
+}
+
+.gallery{ 
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    
+
+}
+.gallery img{
+    width: 100%;
+  
+}
+.gallery img:hover{
+    width: 500px;
+    transform: scale(1.2);
+    transition: transform .5s;
+    justify-content: center;
 }
 
 #about div{
