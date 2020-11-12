@@ -846,7 +846,28 @@ and (min-resolution:192dpi){
     display: flex;
     
 }*/
+.main{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    grid-template-areas: "box1 box2";
+}
+.box1{
+    grid-area: box1;
+    background-color: #F78888;
+}
 
+.box2{
+    grid-area: box2;
+    background-color: #5da2d5;
+}
+.box1 #text{
+    margin-top: 100px;
+}
+.box2 img{
+    margin: 0;
+}
 
 #about div{
     width: 100%;
