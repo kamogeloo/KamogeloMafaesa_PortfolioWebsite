@@ -863,8 +863,25 @@ and (min-resolution:192dpi){
     background-color: #5da2d5;
 }
 .box1 #text{
-    margin-top: 100px;
+    margin-top: 150px;
 }
+.title{
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+    animation: dash 50s linear;
+}
+@keyframes dash{
+    from{
+        stroke-dashoffset: 2000;
+    }
+    to{
+        stroke-dashoffset: 0;
+    }
+    0%{
+        fill: none;}
+    30%{ fill: white;}
+    
+    }
 .box2 img{
     margin: 0;
 }
