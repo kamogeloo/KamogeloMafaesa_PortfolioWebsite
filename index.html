@@ -8,6 +8,7 @@
     <meta name = "url" content = "">
     <link rel="stylesheet" href="style.css" type = "text/css">
     <link rel = "stylesheet" href = "footer.css" type = "text/css">
+    <link href="/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
@@ -28,7 +29,7 @@
             <div class = "menucontainer" id = "navibar">
                 
             <ul>
-                <li class = "menu" id= "active"> <a href= #landing> HOME </a></li>
+                <li class = "menu" id= "active"> <a href= #home> HOME </a></li>
         
                <li class = "menu"><button id= "menubtn" onclick = "work()">PORTFOLIO</button></li>    
                 <li class = "menu"> <a href= contact.html> CONTACT </a></li>
@@ -44,7 +45,7 @@
 
     </header>
 
-    <main class = "main">
+    <main class = "main" id = "home">
        <!-- <div id = "landing" class = "row-landing">
             <div class = "column-landing left" >-->
               
@@ -64,32 +65,16 @@
                     >
                 
                 DIGITAL  ARTIST</text>
-                <text class = "animated fadeInLeft slower"
-                x = 5px y = "130"
-                style = "font-family:'Playfair Display', serif;
-                font-size: 15px;
-                stroke: white;
-                fill: white;
-                stroke-width: 0.5;">
-               Hello! Welcome to my website 
-               
-                
-            </text>
-            <text  class = "animated fadeInLeft slower"
-            x = 5px y = "160"
-            style = "font-family:'Playfair Display', serif;
-            font-size: 15px;
-            stroke: white;
-            fill: white;
-            stroke-width: 0.5;">
-            My name is Kamogelo, but everyone calls me Kamo.
-        </text>
+              
+           
+
             </svg>
                 
                
                
                 
             </section>
+            <section id= "texts"></section>
          
         </div>
         <div class = "box2">
@@ -116,14 +101,18 @@
          function work(){
              document.location.href = "work.html";
          }
-          /*--function resume(){
-             document.location.href = "resume.html";
-         }
-         function BacktoTop() {
-        document.body.scrollTop = 0
-        document.documentElement.scrollTop = 0;
-    
-    }*/
+         //Code from https://youtu.be/5lo_QdeWm_g
+          let i =0, text;
+          text = " Hello! Welcome to my website.My name is Kamogelo, but everyone calls me Kamo.";
+
+          function typing(){
+              if (i < text.length){
+                  document.getElementById("texts").innerHTML += text.charAt(i); i++;
+                  setTimeout(typing,100);
+              }
+          }
+          typing();
+
      </script>    
         
          
