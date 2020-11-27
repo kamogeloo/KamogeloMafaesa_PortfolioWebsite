@@ -7,6 +7,7 @@
     <meta name="description" content="Contact_Page">
     <meta name = "url" content = "information on how to contact me">
     <link rel="stylesheet" href="style.css">
+    <link href="pageanim.css" rel = "stylesheet" type="text/css">
     <link rel = "stylesheet" href = "footer.css" type = "text/css">
     <link href="/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,29 +20,24 @@
     <script src="index.js" defer></script>
     <title>Home</title>
 </head>
-<body>
+<body >
     <header>
-        <nav class = "navi" id = "menulist">
-            <div class = "logo"> KM</div>
-            
-            <div class = "menucontainer" id = "navibar">
-                
-            <ul>
-                <li class = "menu" id= "active"> <a href= index.html> HOME </a></li>
-                
-                <li class = "menu"><button id= "menubtn" onclick = "work()">PORTFOLIO</button></li>
-                <li class = "menu"> <a href= contact.html> CONTACT </a></li>
-                <li class = "menu"><a href = "javascript:void(0);" class = "icon" onclick = "Responsivemenu()"> 
-                <i class= "fa fa-bars"></i></a></li>
-            
-            
-            </ul>
-            </div>
-            
+        <nav>
+            <div class = "hamburger">
+                <div class = "line"></div>
+                <div class = "line"></div>
+                <div class = "line"></div>
+                </div>
+                <ul class = "nav-links">
+                    <li><a href = index.html>HOME</a></li>
+                    <li><button id="button" onclick = "work()">PORTFOLIO</button></li>
+                    <li><a href = contact.html>CONTACT</a></li>
+                    
+                </ul>
+           
         </nav>
 
-        </header>
-
+</header>
 
         <main>
            
@@ -50,8 +46,9 @@
     <h1 class="animated fadeInLeft slow"> KAMOGELO MAFAESA</h1>
     <figure class = "animated jello delay-2s"><img src = "IMG_20200326_155552.png"  alt = "a selfie image of myself" width= "50%"></figure>
  
- <p><strong>Tel:</strong> +27 74 558 7790</p>
- <p>kamogelomafaesa7@gmail.com · Instagram: @kamomafaesa</p>
+<p><i class="fas fa-phone-alt"></i><strong>Tel:</strong> +27 74 558 7790</p>
+ <p><i class="fas fa-envelope"></i> kamogelomafaesa7@gmail.com <br> <br>
+     <i class="fab fa-instagram-square"></i> Instagram: @kamomafaesa</p>
 
  <p><strong> DATE OF BIRTH:</strong> 1998 </p>
 
@@ -88,7 +85,7 @@ GRADE 2 – GRADE 4, ITIRELE PUBLIC SCHOOL</li>
 
 </ol>
 
-<p><strong>EXPERIENCE</strong></p>
+<i class="fas fa-briefcase"></i><p><strong>EXPERIENCE</strong></p>
 <p><strong>SEPTEMBER 2017 – SEPTEMBER 2017</strong></p>
 <p><strong>VOLUNTEER WORK, <a href = "https://fakugesi.co.za/">FAK’UGEZI</a></strong></p>
 <p><strong>SEPTEMBER 2019 – SEPTEMBER 2019</strong></p>
@@ -96,7 +93,10 @@ GRADE 2 – GRADE 4, ITIRELE PUBLIC SCHOOL</li>
 <p>I have created illustrations for e-book covers, album art and made cartoon illustrations for people over the years. Most of which were done for free.</p>
 
 
-<ul class="cv"><strong>SKILLS</strong>
+<ul class="cv">
+    <i class="fas fa-toolbox"></i>
+    <br>
+    <strong>SKILLS</strong>
     <li>Game development </li>
     <li>2D asset animation <a href = "#animations.html">See portfolio</a></li>
     <li>3D modeling <a href = "#3DModels.html">See portfolio</a></li>
@@ -112,9 +112,10 @@ GRADE 2 – GRADE 4, ITIRELE PUBLIC SCHOOL</li>
 </ul>
 
 <p><strong>ACTIVITIES</strong></p>
-I enjoy drawing, painting, I enjoy doing research on things that I am interested in learning more about. </p>
+I enjoy drawing, painting <i class="fas fa-paint-brush"></i>, I enjoy doing research on things that I am interested in learning more about. </p>
 
-<p><strong>REFERENCES</strong></p>
+
+<i class="fas fa-user-tie"></i><p><strong>REFERENCES</strong></p>
 <p>Hanli Geyser – Lecturer: Digital Arts, Wits University</p>
 <p>hanli.geyser@wits.ac.za</p>
 <p>Kamogelo Tselane – Friend/fellow student</p>

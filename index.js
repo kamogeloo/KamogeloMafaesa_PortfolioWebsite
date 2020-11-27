@@ -33,3 +33,18 @@ function Responsivemenu(){
         document.documentElement.scrollTop = 0;
     
     }
+
+    
+//code for menu   credit: https://youtu.be/H4MkGzoACpQ
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li, #button");
+
+
+hamburger.addEventListener("click", () => {
+
+navLinks.classList.toggle("open");
+links.forEach(link => {
+link.classList.toggle("fade");
+});
+});

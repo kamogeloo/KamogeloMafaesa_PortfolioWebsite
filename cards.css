@@ -1,0 +1,61 @@
+body{
+
+}
+.container, .cont, .container2, .container3, .container4, .container5,.container6, .container7, .container8, .container9,.container10, .container11, .container12, .container13, .container14, .container15, .container16, .container17,.container18, .container19, .container20, .container21{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem 1rem;
+   
+    
+    
+    
+    }
+    
+    .card, .caard, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12, .card13, .card14, .card15, .card16, .card17, .card18, .card19, .card20, .card21{
+        background: #ececec;
+    min-height: 20vh;
+    transform-style: preserve-3d;
+    width: 35rem;
+    border-radius: 1rem 1rem;
+    box-shadow: 0px 20px 20px rgba(206, 206, 206, 0.2), 0px 0px 50px  rgba(156, 156, 156, 0.2);
+    transition: all 0.5s ease-out;
+    }
+
+    .illustration, .illustrationn, .illustration2, .illustration3, .illustration4, .illustration5, .illustration6, .illustration7, .illustration8, .illustration9, .illustration10, .illustration11, .illustration12, .illustration13, .illustration14, .illustration15, .illustration16, .illustration17, .illustration18, .illustration19, .illustration20, .illustration21 {
+        min-height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+    }
+    .illustration img, .illustrationn img, .illustration2 img, .illustration3 img, .illustration4 img, .illustration5 img, .illustration6 img, .illustration7 img, .illustration8 img, .illustration9 img, .illustration10 img, .illustration11 img, .illustration12 img, .illustration13 img, .illustration14 img, .illustration15 img, .illustration16 img, .illustration17 img, .illustration18 img, .illustration19 img, .illustration20 img, .illustration21 img{
+        display: flex;
+        margin-top: 20px;
+        width: 15rem;
+        z-index: 2;
+        transition: all 0.5s ease-out;
+    }
+  
+    .info h1, .infor h1, .info2 h1, .info3 h1, .info4 h1, .info5 h1, .info6 h1, .info7 h1, .info8 h1, .info9 h1, .info10 h1, .info11 h1, .info12 h1, .info13 h1, .info14 h1, .info15 h1, .info16 h1, .info17 h1, .info18 h1, .info19 h1, .info20 h1, .info21 h1 {
+        font-size: 2.5rem;
+        transition: all 0.5s ease-out;
+        color: black;
+        text-align: center;
+    }
+    .info h3, .infor h3, .info2 h3, .info3 h3, .info4 h3, .info5 h3, .info6 h3, .info7 h3, .info8 h3, .info9 h3, .info10 h3, .info11 h3, .info12 h3, .info13 h3, .info14 h3, .info15 h3, .info16 h3, .info17 h3, .info18 h3, .info19 h3, .info20 h3, .info21 h3 {
+        font-size: 1.0rem;
+        padding: 2rem 0rem;
+        color: #585858;
+        font-weight: lighter;
+        transition: all 0.5s ease-out;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+    }
