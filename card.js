@@ -206,8 +206,8 @@ const description4 = document.querySelector (".info5 h3");
 
 //moving animation event
 container4.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 100;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 100;
 
     card4.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -219,9 +219,9 @@ container4.addEventListener("mouseenter", (e) => {
     card4.style.transition = "none";
 
     //pop out effect
-title4.style.transform = "translateZ(100px)"; 
-illustration4.style.transform = "translateZ(120px)"; 
-description4.style.transform = "translateZ(50px)"; 
+title4.style.transform = "translateZ(150px)"; 
+illustration4.style.transform = "translateZ(200px)"; 
+description4.style.transform = "translateZ(100px)"; 
 
 
 });
@@ -254,8 +254,8 @@ const description5 = document.querySelector (".info6 h3");
 
 //moving animation event
 container5.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 100;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 100;
 
     card5.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -303,8 +303,8 @@ const description6 = document.querySelector (".info7 h3");
 
 //moving animation event
 container6.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 150;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 150;
 
     card6.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -316,8 +316,8 @@ container6.addEventListener("mouseenter", (e) => {
     card6.style.transition = "none";
 
     //pop out effect
-title6.style.transform = "translateZ(100px)"; 
-illustration6.style.transform = "translateZ(100px)"; 
+title6.style.transform = "translateZ(120px)"; 
+illustration6.style.transform = "translateZ(150px)"; 
 description6.style.transform = "translateZ(50px)"; 
 
 
@@ -351,8 +351,8 @@ const description7 = document.querySelector (".info8 h3");
 
 //moving animation event
 container7.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 150;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 150;
 
     card7.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -364,8 +364,8 @@ container7.addEventListener("mouseenter", (e) => {
     card7.style.transition = "none";
 
     //pop out effect
-title7.style.transform = "translateZ(100px)"; 
-illustration7.style.transform = "translateZ(100px)"; 
+title7.style.transform = "translateZ(120px)"; 
+illustration7.style.transform = "translateZ(150px)"; 
 description7.style.transform = "translateZ(50px)"; 
 
 
@@ -400,8 +400,8 @@ const description8 = document.querySelector (".info9 h3");
 
 //moving animation event
 container8.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 200;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 200;
 
     card8.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -413,8 +413,8 @@ container8.addEventListener("mouseenter", (e) => {
     card8.style.transition = "none";
 
     //pop out effect
-title8.style.transform = "translateZ(100px)"; 
-illustration8.style.transform = "translateZ(100px)"; 
+title8.style.transform = "translateZ(120px)"; 
+illustration8.style.transform = "translateZ(150px)"; 
 description8.style.transform = "translateZ(50px)"; 
 
 
@@ -448,8 +448,8 @@ const description9 = document.querySelector (".info10 h3");
 
 //moving animation event
 container9.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 200;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 200;
 
     card9.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -496,8 +496,8 @@ const description10 = document.querySelector (".info11 h3");
 
 //moving animation event
 container10.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 200;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 200;
 
     card10.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -510,7 +510,7 @@ container10.addEventListener("mouseenter", (e) => {
 
     //pop out effect
 title10.style.transform = "translateZ(100px)"; 
-illustration10.style.transform = "translateZ(100px)"; 
+illustration10.style.transform = "translateZ(150px)"; 
 description10.style.transform = "translateZ(50px)"; 
 
 
@@ -543,8 +543,8 @@ const description11 = document.querySelector (".info12 h3");
 
 //moving animation event
 container11.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 250;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 250;
 
     card11.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -557,7 +557,7 @@ container11.addEventListener("mouseenter", (e) => {
 
     //pop out effect
 title11.style.transform = "translateZ(100px)"; 
-illustration11.style.transform = "translateZ(100px)"; 
+illustration11.style.transform = "translateZ(150px)"; 
 description11.style.transform = "translateZ(50px)"; 
 
 
@@ -576,8 +576,8 @@ const description12 = document.querySelector (".info13 h3");
 
 //moving animation event
 container12.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 250;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 250;
 
     card12.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -590,7 +590,7 @@ container12.addEventListener("mouseenter", (e) => {
 
     //pop out effect
 title12.style.transform = "translateZ(100px)"; 
-illustration12.style.transform = "translateZ(100px)"; 
+illustration12.style.transform = "translateZ(150px)"; 
 description12.style.transform = "translateZ(50px)"; 
 
 
@@ -623,8 +623,8 @@ const description13 = document.querySelector (".info14 h3");
 
 //moving animation event
 container13.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 300;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 300;
 
     card13.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -637,7 +637,7 @@ container13.addEventListener("mouseenter", (e) => {
 
     //pop out effect
 title13.style.transform = "translateZ(100px)"; 
-illustration13.style.transform = "translateZ(100px)"; 
+illustration13.style.transform = "translateZ(150px)"; 
 description13.style.transform = "translateZ(50px)"; 
 
 
@@ -656,8 +656,8 @@ const description14 = document.querySelector (".info15 h3");
 
 //moving animation event
 container14.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 300;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 300;
 
     card14.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -670,7 +670,7 @@ container14.addEventListener("mouseenter", (e) => {
 
     //pop out effect
 title14.style.transform = "translateZ(100px)"; 
-illustration14.style.transform = "translateZ(100px)"; 
+illustration14.style.transform = "translateZ(150px)"; 
 description14.style.transform = "translateZ(50px)"; 
 
 
@@ -689,8 +689,8 @@ const description15 = document.querySelector (".info16 h3");
 
 //moving animation event
 container15.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 300;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 300;
 
     card15.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -703,7 +703,7 @@ container15.addEventListener("mouseenter", (e) => {
 
     //pop out effect
 title15.style.transform = "translateZ(100px)"; 
-illustration15.style.transform = "translateZ(100px)"; 
+illustration15.style.transform = "translateZ(150px)"; 
 description15.style.transform = "translateZ(50px)"; 
 
 
@@ -722,8 +722,8 @@ const description16 = document.querySelector (".info17 h3");
 
 //moving animation event
 container16.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 300;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 300;
 
     card16.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -735,9 +735,9 @@ container16.addEventListener("mouseenter", (e) => {
     card16.style.transition = "none";
 
     //pop out effect
-title16.style.transform = "translateZ(150px)"; 
-illustration16.style.transform = "translateZ(200px)"; 
-description16.style.transform = "translateZ(100px)"; 
+title16.style.transform = "translateZ(100px)"; 
+illustration16.style.transform = "translateZ(150px)"; 
+description16.style.transform = "translateZ(50px)"; 
 
 
 });
@@ -756,8 +756,8 @@ const description17 = document.querySelector (".info18 h3");
 
 //moving animation event
 container17.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 350;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 350;
 
     card17.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -769,9 +769,9 @@ container17.addEventListener("mouseenter", (e) => {
     card17.style.transition = "none";
 
     //pop out effect
-title17.style.transform = "translateZ(150px)"; 
-illustration17.style.transform = "translateZ(200px)"; 
-description17.style.transform = "translateZ(100px)"; 
+title17.style.transform = "translateZ(100px)"; 
+illustration17.style.transform = "translateZ(150px)"; 
+description17.style.transform = "translateZ(50px)"; 
 
 
 });
@@ -790,8 +790,8 @@ const description18 = document.querySelector (".info19 h3");
 
 //moving animation event
 container18.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 350;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 350;
 
     card18.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -803,9 +803,9 @@ container18.addEventListener("mouseenter", (e) => {
     card18.style.transition = "none";
 
     //pop out effect
-title18.style.transform = "translateZ(150px)"; 
-illustration18.style.transform = "translateZ(200px)"; 
-description18.style.transform = "translateZ(100px)"; 
+title18.style.transform = "translateZ(100px)"; 
+illustration18.style.transform = "translateZ(150px)"; 
+description18.style.transform = "translateZ(50px)"; 
 
 
 });
@@ -824,8 +824,8 @@ const description19 = document.querySelector (".info20 h3");
 
 //moving animation event
 container19.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 350;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 350;
 
     card19.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -837,9 +837,9 @@ container19.addEventListener("mouseenter", (e) => {
     card19.style.transition = "none";
 
     //pop out effect
-title19.style.transform = "translateZ(150px)"; 
-illustration19.style.transform = "translateZ(200px)"; 
-description19.style.transform = "translateZ(100px)"; 
+title19.style.transform = "translateZ(100px)"; 
+illustration19.style.transform = "translateZ(150px)"; 
+description19.style.transform = "translateZ(50px)"; 
 
 
 });
@@ -858,8 +858,8 @@ const description20 = document.querySelector (".info21 h3");
 
 //moving animation event
 container20.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+    let xAxis = (window.innerWidth / 2 - e.pageX) / 350;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 350;
 
     card20.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`;
   });
@@ -871,9 +871,9 @@ container20.addEventListener("mouseenter", (e) => {
     card11.style.transition = "none";
 
     //pop out effect
-title20.style.transform = "translateZ(150px)"; 
-illustration20.style.transform = "translateZ(200px)"; 
-description20.style.transform = "translateZ(100px)"; 
+title20.style.transform = "translateZ(100px)"; 
+illustration20.style.transform = "translateZ(150px)"; 
+description20.style.transform = "translateZ(50px)"; 
 
 
 });

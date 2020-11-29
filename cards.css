@@ -1,15 +1,15 @@
-body{
 
-}
 .container, .cont, .container2, .container3, .container4, .container5,.container6, .container7, .container8, .container9,.container10, .container11, .container12, .container13, .container14, .container15, .container16, .container17,.container18, .container19, .container20, .container21{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    width: 80%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 1rem 1rem;
+    
+
    
     
     
@@ -20,7 +20,7 @@ body{
         background: #ececec;
     min-height: 20vh;
     transform-style: preserve-3d;
-    width: 35rem;
+    width: 50rem;
     border-radius: 1rem 1rem;
     box-shadow: 0px 20px 20px rgba(206, 206, 206, 0.2), 0px 0px 50px  rgba(156, 156, 156, 0.2);
     transition: all 0.5s ease-out;
@@ -41,6 +41,10 @@ body{
         z-index: 2;
         transition: all 0.5s ease-out;
     }
+    .illustration img:hover, .illustrationn img:hover, .illustration2 img:hover, .illustration3 img:hover, .illustration4 img:hover, .illustration5 img:hover, .illustration6 img:hover, .illustration7 img:hover, .illustration8 img:hover, .illustration9 img:hover, .illustration10 img:hover, .illustration11 img:hover, .illustration12 img:hover, .illustration13 img:hover, .illustration14 img:hover, .illustration15 img:hover, .illustration16 img:hover, .illustration17 img:hover, .illustration18 img:hover, .illustration19 img:hover, .illustration20 img:hover, .illustration21 img:hover{
+      
+        width: 25rem;
+    }
   
     .info h1, .infor h1, .info2 h1, .info3 h1, .info4 h1, .info5 h1, .info6 h1, .info7 h1, .info8 h1, .info9 h1, .info10 h1, .info11 h1, .info12 h1, .info13 h1, .info14 h1, .info15 h1, .info16 h1, .info17 h1, .info18 h1, .info19 h1, .info20 h1, .info21 h1 {
         font-size: 2.5rem;
@@ -58,4 +62,16 @@ body{
         margin-right: auto;
         margin-left: auto;
         width: 80%;
+    }
+    @media screen and (max-width:768px){
+   
+        div{
+            z-index: -1;
+            
+        }
+        
+
+       
+    
+     
     }

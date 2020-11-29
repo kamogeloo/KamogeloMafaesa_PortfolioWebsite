@@ -39,6 +39,9 @@ function Responsivemenu(){
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li, #button");
+const image =document.querySelector(".aboutpage img");
+const heading = document.querySelector(".aboutpage h1");
+const body = document.querySelector("body");
 
 
 hamburger.addEventListener("click", () => {
@@ -46,5 +49,9 @@ hamburger.addEventListener("click", () => {
 navLinks.classList.toggle("open");
 links.forEach(link => {
 link.classList.toggle("fade");
+body.style.overflow = "hidden";
+image.style.display = "none";
+heading.style.display = "none";
+
 });
 });

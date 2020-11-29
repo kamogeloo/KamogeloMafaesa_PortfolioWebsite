@@ -35,7 +35,7 @@ body{
   
 }
 #texts{
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .box2{
@@ -104,9 +104,9 @@ body{
     transition: transform .5s ease;
     justify-content: center;
 }
-   
+
 nav{
-    
+    margin-top: -2%;
     height: 10vh;
     background: #ececec;
    
@@ -137,11 +137,29 @@ nav{
         cursor: pointer;
     }
     
-    @media screen and (max-width:768px){
-    
-    body{
-        z-index: -2;
+
+
+.directory{
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 700px;
+  
+}
+
+    .directory a{
+        text-decoration: none;
+        color:white;
+        font-size: 50px;
+        display: flex;
+     
+ 
     }
+
+
+    @media screen and (max-width:768px){
+   
+   
+
 
     .line{
     width:30px;
@@ -165,7 +183,9 @@ nav{
     top: 10%;
     transform: translate (-5%, -50%);
     z-index: 2;
+    
     }
+    
     
     
     
@@ -180,6 +200,7 @@ nav{
     -webkit-clip-path: circle(100px at 90% -20%);
     transition: all 1s ease-out;
     pointer-events:none;
+ 
     
     }
     
@@ -188,7 +209,9 @@ nav{
     clip-path:circle(2000px at 90% -20%);
     -webkit-clip-path: circle(2000px at 90% -20%);
     pointer-events: all;
-    ;
+    
+   
+    
     
     }
     .nav-links li{
@@ -228,7 +251,7 @@ nav{
         font-size: 10px;
         width: 50%;
         margin-left: -20px;
-        margin-top: 10px;
+        margin-top: 50px;
         
         
         
@@ -244,7 +267,7 @@ nav{
     }
     #laptop{
         display: flex;
-        margin-top: -600px;
+        margin-top: -650px;
         margin-bottom: 150px;
         margin-left: 90px;
         z-index: -2;
@@ -255,8 +278,9 @@ nav{
         display: block;
         width: 60%;
         font-size: 20px;
-        font-weight: bolder;
+       
         color:rgb(255, 255, 255);
+        margin-top: -380px;
         
     }
     
@@ -272,6 +296,18 @@ nav{
         display:none;
         
     }
+   .wireframes img{
+    
+    width: 320px;
+    height: auto;
+   }
+
+   .aboutpage h1, .aboutpage img{
+   z-index: 0;
+   }
+
+
+   
 }
     
 
@@ -615,20 +651,7 @@ h2{
        transition: transform .3s;
    }
    
-   #firstButn {
-   background-color: #F78888;
-   } 
-   #secondButn {
-   background-color: rgb(248, 185, 142);
-   
-   }
-    #thirdButn {
-    background-color:rgb(255, 208, 0) ;
-   }
-   #fourthButn{
-       background-color: #5da2d5;
-   }
-   
+ 
 
    
    div .column-work{
@@ -791,19 +814,7 @@ h2{
        transition: transform .3s;
    }
    
-   #firstButn {
-   background-color: #F78888;
-   } 
-   #secondButn {
-   background-color: rgb(248, 185, 142);
-   
-   }
-    #thirdButn {
-    background-color:rgb(255, 208, 0) ;
-   }
-   #fourthButn{
-       background-color: #5da2d5;
-   }
+
    
 
    
@@ -962,19 +973,7 @@ h2{
        transition: transform .3s;
    }
    
-   #firstButn {
-   background-color: #F78888;
-   } 
-   #secondButn {
-   background-color: rgb(248, 185, 142);
-   
-   }
-    #thirdButn {
-    background-color:rgb(255, 208, 0) ;
-   }
-   #fourthButn{
-       background-color: #5da2d5;
-   }
+
    
 
    
@@ -1102,8 +1101,8 @@ section{
 }
 #contact{
     margin-top: o;
-    background-color: rgb(248, 185, 142);
-}
+    background-color: #5da2d5;}
+
 #contact-text{
     margin-top: 10%;
 }
@@ -1171,19 +1170,6 @@ section{
     transition: transform .5s;
 }
 
-#firstButn {
-background-color: #F78888;
-} 
-#secondButn {
-background-color: rgb(248, 185, 142);
-
-}
- #thirdButn {
- background-color:rgb(255, 208, 0) ;
-}
-#fourthButn{
-    background-color: #5da2d5;
-}
 
 .middletext{
     margin:0;

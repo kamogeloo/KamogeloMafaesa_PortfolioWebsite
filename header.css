@@ -4,14 +4,4 @@ margin: 0;
  
     
 
-@media (min-width: 320px) and (max-width:480px){
-    header{
-        height: 10%;
-    }
-}
-@media screen and (max-width: 800px){
-    header{
-        background-color: pink
-        ;
-    }
-}
+
