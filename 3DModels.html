@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kamogelo Mafaesa">
+    <meta name="description" content="Projects done">
+    <meta name = "url" content = "">
+    <link rel="stylesheet" href="style.css">
+    <link href="pageanim.css" rel = "stylesheet" type="text/css">
+    <link href="3DModel.css" rel = "stylesheet"  type="text/css">
+    <link rel = "stylesheet" href = "footer.css" type = "text/css">
+    <link rel ="picture_folder" href ="work/">
+    <script src="/FurnitureGame_WebGl/Build/FurnitureGame_WebGl.json"></script>
+    <link href="/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    
+    <script src="index.js" defer></script>
+    <title>work</title>
+</head>
+
+<body class = "worksection" style="background-color: #5da2d5">
+    <header>
+        <nav>
+            <div class = "hamburger">
+                <div class = "line"></div>
+                <div class = "line"></div>
+                <div class = "line"></div>
+                </div>
+                <ul class = "nav-links">
+                    <li><a href = index.html>HOME</a></li>
+                    <li> <a href = about.html>ABOUT</a></li>
+                    <li><button id="button" onclick = "work()">PORTFOLIO</button></li>
+                    <li><a href = contact.html>CONTACT</a></li>
+                    
+                </ul>
+           
+        </nav>
+
+
+       
+
+    </header>
+
+    <main class = "animated fadeIn slow" >
+        <div>
+        <h1 style="margin-left: 650px;">MODELS AND GAMES</h1></div>
+
+        <div class="model-library">
+        <div class = "container">
+            <div class = "card">
+                <div class = "Model">
+                    <div class = "circle"></div>
+                    <img src="work/WebGameThing.png" alt = "WebGame">
+    
+                </div>
+                <div class = "info">
+                    <h1 class = "">Furniture Color Change Prototype</h1>
+                    <h3>This is one of the setting prototypes that I made for my school project. The focus for this "experience" was mainly on the assets. Please do check it out.
+                    </h3>
+
+                    <div class= "play">
+                        <button id="button" onclick = "webgame()">PLAY</button>
+                        
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+    </footer>
+    <script>
+        function work(){
+            document.location.href = "work.html";
+        }
+        function resume(){
+            document.location.href = "resume.html";
+        }
+
+        function webgame(){
+            document.location.href = "http://127.0.0.1:5502/FurnitureGame_WebGl/WebGame.html";
+        }
+    </script>   
+
+</body>
+
+</html>
