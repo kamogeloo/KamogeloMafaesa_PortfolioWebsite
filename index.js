@@ -13,10 +13,10 @@ function Responsivemenu(){
     //scrolluparrow
     
     let topbutton = document.getElementById("topbtn");
-    window.onscroll = function() {scrollTo()};
+    window.onscroll = function() {scrollTop()};
     console.log('it works');
     
-    function scrollTo() {
+    function scrollTop() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
         {
               topbutton.style.display = "block";
