@@ -158,7 +158,9 @@ nav{
 
     @media screen and (max-width:768px){
    
-   
+   body{
+       font-size: 5px;
+   }
 
 
     .line{
@@ -239,19 +241,24 @@ nav{
     .nav-links li.fade{
     opacity:1;
     }
-    
+    .home{
+        background-color: #5da2d5;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
     .box1{
         width: 100%;
         height: auto;
         z-index: -2;
         margin: 0;
-        margin-left: -100px;
+        position: relative;
     }
+
     .box1 svg text{
-        font-size: 10px;
-        width: 50%;
-        margin-left: -20px;
-        margin-top: 50px;
+        font-size: 5px;
+        margin: 0;
+        display: flex;
         
         
         
@@ -267,90 +274,80 @@ nav{
     }
     #laptop{
         display: flex;
-        margin-top: -650px;
+        width: 280px;
+        display: flex;           
+        margin-top: -500px;
         margin-bottom: 150px;
-        margin-left: 90px;
+        margin-right:auto;
+        margin-left: auto;
         z-index: -2;
         
       
     }
+    #text{
+        width: 50%;
+        margin: 0;
+        font-size: smaller;
+    }
     #texts{
         display: block;
-        width: 60%;
+        width: 50%;
         font-size: 20px;
        
         color:rgb(255, 255, 255);
-        margin-top: -380px;
+        margin-top: -100px;
+        z-index: -2;
         
     }
     
     .box2{
-        display: none;
+        width: 0;
+        z-index: -2;
     }
-    .box2 img{
-        
-        width: 100%;
-        max-width: 1000px;
-        height: auto;
-        margin-top: 200px;
-        display:none;
-        
-    }
+   
    .wireframes img{
     
     width: 320px;
     height: auto;
+    z-index: -2;
    }
 
    .aboutpage h1, .aboutpage img{
    z-index: 0;
    }
 
-
+p, h1,h2, section{
+    z-index: -2;
+}
    
 }
     
 
-    
-    
+ /*phones*/   
+@media screen and (max-width:500px){
 
-
-
-/*phones*/
-@media(max-width: 320px){
-    .menucontainer {
-        width: 100%;
-        height: 50px;
-        z-index: 9999;
-        margin-left: 0;
-        margin-right:0;
-        margin-top:10%;
-        padding-top: 2px;
-        padding-bottom: 2px;
-        font-size: 4px;
-      
-    }
-    
-    body{
-        margin: 0;
-        padding: 0;
-        font-size: 5px;
-    }
-   .menucontainer a{
-       margin-left:-20px;
+   nav, main, footer, .directory, #projects{
+       width: 100%;
+       
    }
-    .wireframes section img{
-        margin: 0;
-        max-width: 180px;
-        height: 160px;
-    }
-    
-    .wireframes section img{
-        margin: 0;
-        max-width: 180px;
-        height: 160px;
-    }
+   main, footer, .directory, #projects{
+       z-index: -2;
+   }
+   .directory{
+       font-size: 5px;
+       display: flex;
+   }
+   img{
+       width: 100%;
+   }
 }
+        
+
+
+
+
+
+
 @media (min-width: 320px) and (max-width:480px){
      .menucontainer {
          max-width: 100%;

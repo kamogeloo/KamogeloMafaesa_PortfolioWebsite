@@ -42,6 +42,7 @@ const links = document.querySelectorAll(".nav-links li, #button");
 const image =document.querySelector(".aboutpage img");
 const heading = document.querySelector(".aboutpage h1");
 const body = document.querySelector("body");
+const illustrations = document.querySelector(".worksection img");
 
 
 hamburger.addEventListener("click", () => {
@@ -52,6 +53,7 @@ link.classList.toggle("fade");
 body.style.overflow = "hidden";
 image.style.display = "none";
 heading.style.display = "none";
+illustrations.style.display = "none";
 
 });
 });
